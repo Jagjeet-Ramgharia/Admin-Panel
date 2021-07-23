@@ -1,0 +1,5 @@
+.widget_lg{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+}
