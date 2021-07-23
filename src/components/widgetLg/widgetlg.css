@@ -3,3 +3,48 @@
     padding: 20px;
     box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
 }
+.title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.t_img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.widgetlg_btn{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 7px ;
+}
+.widgetlg_btn.Approved{
+    background-color: #e5faf2;
+}
+.widgetlg_btn.Declined{
+    background-color: #fff0f1;
+}
+.widgetlg_btn.Pending{
+    background-color: #ebf1fe;
+}
+
+.widgetlg_table{
+    width: 100%;
+    border-spacing: 20px;
+}
+.th{
+    text-align: left;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-weight: 600;
+}
+.amount,.date{
+    font-weight: 300;
+}
