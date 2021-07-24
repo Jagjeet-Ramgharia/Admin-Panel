@@ -1,6 +1,7 @@
 import React from "react";
 import "./sidebar.css";
 import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -26,10 +27,12 @@ const Sidebar = () => {
         <div className="sidebar_menu">
           <h3 className="sibebar_title">Quick Menu</h3>
           <ul className="sidebar_list">
-            <li className="sidebar_listitem ">
-              <LineStyle className="sidebar_icons" />
-              Users
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebar_listitem ">
+                <LineStyle className="sidebar_icons" />
+                Users
+              </li>
+            </Link>
             <li className="sidebar_listitem">
               <Timeline className="sidebar_icons" />
               Products
