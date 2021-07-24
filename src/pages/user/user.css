@@ -1,0 +1,137 @@
+.user{
+    flex: 4;
+    padding: 20px;
+    flex-direction: column;
+}
+.user_title_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.userAdd_btn{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 9px;
+}
+.user_container{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.user_show{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+    /* width: 300px; */
+}
+
+.user_Update{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+    margin-left: 20px;
+}
+.user_show_top{
+    display: flex;
+    align-items: center;
+}
+.user_img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.user_title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.user_username{
+    font-weight: 600;
+}
+.user_job{
+    font-weight: 300;
+}
+.user_show_bottom{
+    margin-top: 10px;
+}
+.userBottom_title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(165, 164, 164);
+}
+.userBottom_info{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    color: #555;
+}
+.userBottomInfo_title{
+    margin-left: 10px;
+}
+.userupdate_img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.user_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.userupdate_form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userupdate_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 250px;
+}
+.userupdate_item>label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.userupdate_input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.userupdate_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userupdate_upload{
+    display: flex;
+    align-items: center;
+}
+.publish{
+    cursor: pointer;
+}
+.userupdate_btn{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: darkblue;
+}

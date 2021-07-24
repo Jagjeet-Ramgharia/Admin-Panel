@@ -47,6 +47,14 @@ export const Userdata = [
         transaction: "$120",
       },
       {
+        id: 3,
+        username: "jon",
+        email: "Jon@gmail.com",
+        avatar: "https://live.staticflickr.com/5252/5403292396_0804de9bcf_b.jpg",
+        status: "active",
+        transaction: "$120",
+      },
+      {
         id: 4,
         username: "jon",
         email: "Jon@gmail.com",
@@ -88,14 +96,6 @@ export const Userdata = [
       },
       {
         id: 9,
-        username: "jon",
-        email: "Jon@gmail.com",
-        avatar: "https://live.staticflickr.com/5252/5403292396_0804de9bcf_b.jpg",
-        status: "active",
-        transaction: "$120",
-      },
-      {
-        id: 10,
         username: "jon",
         email: "Jon@gmail.com",
         avatar: "https://live.staticflickr.com/5252/5403292396_0804de9bcf_b.jpg",
