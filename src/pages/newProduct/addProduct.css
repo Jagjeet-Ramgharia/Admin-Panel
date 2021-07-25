@@ -1,0 +1,55 @@
+.addProduct{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newUser_title{
+    margin: 10px 0px;
+}
+.product_form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+    padding: 20px;
+    /* margin-left: 20px; */
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.form_item>label{
+    color: grey;
+}
+
+.product_input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.newproduuct_select{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.newproduct_btn{
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: darkblue;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}

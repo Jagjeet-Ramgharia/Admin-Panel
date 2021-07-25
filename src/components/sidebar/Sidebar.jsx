@@ -10,10 +10,12 @@ const Sidebar = () => {
         <div className="sidebar_menu">
           <h3 className="sibebar_title">Dashboard</h3>
           <ul className="sidebar_list">
+          <Link to="/" className="link">
             <li className="sidebar_listitem active">
               <LineStyle className="sidebar_icons" />
               Home
             </li>
+            </Link>
             <li className="sidebar_listitem">
               <Timeline className="sidebar_icons" />
               Analytics
@@ -33,10 +35,12 @@ const Sidebar = () => {
                 Users
               </li>
             </Link>
+            <Link to="/products" className="link">
             <li className="sidebar_listitem">
               <Timeline className="sidebar_icons" />
               Products
             </li>
+            </Link>
             <li className="sidebar_listitem">
               <TrendingUp className="sidebar_icons" />
               Transactions

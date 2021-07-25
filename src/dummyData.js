@@ -29,6 +29,21 @@ export const Userdata = [
     },
   ];
 
+  export const productdata = [
+    {
+      name: 'Jan',
+      "Sales": 4000,
+    },
+    {
+      name: 'Jan',
+      "Sales": 6000,
+    },
+    {
+      name: 'Jan',
+      "Sales": 5000,
+    },
+  ]
+
   export   const userRows = [
     {
       id: 1,
@@ -101,6 +116,82 @@ export const Userdata = [
         avatar: "https://live.staticflickr.com/5252/5403292396_0804de9bcf_b.jpg",
         status: "active",
         transaction: "$120",
+      },
+      
+  ];
+
+  export   const productRows = [
+    {
+      id: 1,
+      name: "Apple Airpods",
+      stock: 123,
+      img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+      status: "active",
+      price: "$120",
+    },
+    {
+        id: 2,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 3,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 4,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 5,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 6,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 7,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 8,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
+      },
+      {
+        id: 9,
+        name: "Apple Airpods",
+        stock: 123,
+        img: "https://images.macrumors.com/t/5HZcrlrusyMFfe6DFsA3J12H7eQ=/800x0/smart/https://images.macrumors.com/article-new/2017/12/airpods.jpg?lossy",
+        status: "active",
+        price: "$120",
       },
       
   ];

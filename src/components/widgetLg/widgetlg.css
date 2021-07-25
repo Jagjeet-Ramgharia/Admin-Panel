@@ -7,6 +7,7 @@
     font-size: 22px;
     font-weight: 600;
 }
+
 .t_img{
     height: 30px;
     width: 30px;
@@ -32,15 +33,17 @@
 }
 
 .widgetlg_table{
-    width: 100%;
-    border-spacing: 20px;
+    border-spacing: 10px;
+    width: 80%;
 }
 .th{
     text-align: left;
 }
+
 .user{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: -10px;
 }
 .name{
     font-weight: 600;

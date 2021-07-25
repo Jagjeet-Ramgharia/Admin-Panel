@@ -22,7 +22,7 @@ const WidgetLg = () => {
                     </td>
                     <td className="date">23/7/2021</td>
                     <td className="amount">$100</td>
-                    <td className="date"><Button type="Approved"/></td>
+                    <td><Button type="Approved"/></td>
                 </tr>
                 <tr className="row">
                     <td className="user">
@@ -31,7 +31,7 @@ const WidgetLg = () => {
                     </td>
                     <td className="date">23/7/2021</td>
                     <td className="amount">$100</td>
-                    <td className="date"><Button type="Pending"/></td>
+                    <td><Button type="Pending"/></td>
                 </tr>
                 <tr className="row">
                     <td className="user">
@@ -40,7 +40,7 @@ const WidgetLg = () => {
                     </td>
                     <td className="date">23/7/2021</td>
                     <td className="amount">$100</td>
-                    <td className="date"><Button type="Declined"/></td>
+                    <td><Button type="Declined"/></td>
                 </tr>
             </table>
         </div>
