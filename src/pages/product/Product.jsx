@@ -3,7 +3,7 @@ import "./product.css";
 import { Link } from "react-router-dom";
 import Chart from "../../components/charts/Chart";
 import { productdata } from "../../dummyData";
-import {Publish} from '@material-ui/icons'
+import { Publish } from "@material-ui/icons";
 
 const Product = () => {
   return (
@@ -48,7 +48,7 @@ const Product = () => {
         </div>
       </div>
       <div className="product_bottom">
-        <form className="product_form">
+        <form className="products_form">
           <div className="product_form_left">
             <label>Product Name</label>
             <input type="text" placeholder="Product Name" />
@@ -69,8 +69,10 @@ const Product = () => {
                 src="https://www.apple.com/newsroom/images/tile-images/Apple_airpods-pro_new-design-102819.jpg.og.jpg?202107021822"
                 alt=""
               />
-              <label for="file"><Publish className="icon"/></label>
-              <input type="file" id="file" style={{display:"none"}} />
+              <label for="file">
+                <Publish className="icon" />
+              </label>
+              <input type="file" id="file" style={{ display: "none" }} />
             </div>
             <button className="product_updatebtn">Update</button>
           </div>

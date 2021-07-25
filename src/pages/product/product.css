@@ -63,7 +63,7 @@
     box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
 }
 
-.product_form{
+.products_form{
     display: flex;
     justify-content: space-between;
 }
@@ -71,6 +71,8 @@
 .product_form_left{
     display: flex;
     flex-direction: column;
+    /* background-color: teal; */
+    flex: 1;
 }
 
 .product_form_left>label{
@@ -96,6 +98,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex: 1;
+    align-items: flex-end;
 }
 
 .product_upload{
@@ -121,6 +125,7 @@
     cursor: pointer;
     color: white;
     background-color: darkblue;
+    width: 50%;
 }
 
 .icon{
