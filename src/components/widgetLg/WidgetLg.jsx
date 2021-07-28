@@ -9,6 +9,7 @@ const WidgetLg = () => {
         <div className="widget_lg">
             <h3 className="title">Latest Transactions</h3>
             <table className="widgetlg_table">
+                <tbody>
                 <tr className="row">
                     <th className="th">Customers</th>
                     <th className="th">Date</th>
@@ -42,6 +43,7 @@ const WidgetLg = () => {
                     <td className="amount">$100</td>
                     <td><Button type="Declined"/></td>
                 </tr>
+                </tbody>
             </table>
         </div>
     )

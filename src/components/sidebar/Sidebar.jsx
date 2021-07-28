@@ -1,6 +1,6 @@
 import React from "react";
 import "./sidebar.css";
-import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
+import { LineStyle, PlayCircleFilledRounded, Timeline, TrendingUp } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
@@ -35,10 +35,10 @@ const Sidebar = () => {
                 Users
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/movies" className="link">
             <li className="sidebar_listitem">
-              <Timeline className="sidebar_icons" />
-              Products
+              <PlayCircleFilledRounded className="sidebar_icons" />
+              Movies
             </li>
             </Link>
             <li className="sidebar_listitem">
