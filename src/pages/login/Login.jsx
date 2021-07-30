@@ -31,6 +31,7 @@ const Login = () => {
         <button type="submit" className="btn" onClick={handleLogin} disabled={isFetching}>
           Sign In
         </button>
+        <small>For Login Credentials please contact admin.</small>
       </form>
     </div>
   );

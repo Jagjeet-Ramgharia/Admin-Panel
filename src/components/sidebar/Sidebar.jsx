@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./sidebar.css";
 import { LineStyle, PlayCircleFilledRounded, Timeline, TrendingUp } from "@material-ui/icons";
-import { Link } from "react-router-dom";
+import { Link, useHistory} from "react-router-dom";
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import {AuthContext} from '../../context/authContext/AuthContext';
+import { logout } from "../../context/authContext/AuthAction";
 
 const Sidebar = () => {
+
+  const {dispatch} = useContext(AuthContext)
+  const history = useHistory()
+
+  const handleLogout = () =>{
+    dispatch(logout())
+    history.push('/login')
+  }
   return (
     <div className="sidebar">
       <div className="sidebar_wrapper">
@@ -47,9 +58,9 @@ const Sidebar = () => {
               Lists
             </li>
             </Link>
-            <li className="sidebar_listitem">
-              <TrendingUp className="sidebar_icons" />
-              Reports
+            <li className="sidebar_listitem" onClick={handleLogout}>
+              <ExitToAppIcon className="sidebar_icons" />
+              LogOut
             </li>
           </ul>
         </div>
