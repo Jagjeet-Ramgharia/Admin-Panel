@@ -65,23 +65,23 @@ const Sidebar = () => {
           </ul>
         </div>
         <div className="sidebar_menu">
-          <h3 className="sibebar_title">Notifications</h3>
+          <h3 className="sibebar_title">Create</h3>
           <ul className="sidebar_list">
+          <Link to="/newmovie" className="link">
             <li className="sidebar_listitem">
               <LineStyle className="sidebar_icons" />
-              Mail
+              Movie
             </li>
+            </Link>
+            <Link to="/newlist" className="link">
             <li className="sidebar_listitem">
               <Timeline className="sidebar_icons" />
-              Feedback
+              Lists
             </li>
-            <li className="sidebar_listitem">
-              <TrendingUp className="sidebar_icons" />
-              Messages
-            </li>
+            </Link>
           </ul>
         </div>
-        <div className="sidebar_menu">
+        {/* <div className="sidebar_menu">
           <h3 className="sibebar_title">Staff</h3>
           <ul className="sidebar_list">
             <li className="sidebar_listitem">
@@ -97,7 +97,7 @@ const Sidebar = () => {
               Reports
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
