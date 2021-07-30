@@ -27,14 +27,18 @@ const Sidebar = () => {
               Home
             </li>
             </Link>
+            <Link to="/allusers" className="link">
             <li className="sidebar_listitem">
               <Timeline className="sidebar_icons" />
-              Analytics
+              All Users
             </li>
+            </Link>
+            <Link to="newusers" className="link">
             <li className="sidebar_listitem">
               <TrendingUp className="sidebar_icons" />
-              Sales
+              New Users
             </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebar_menu">
@@ -43,7 +47,7 @@ const Sidebar = () => {
             <Link to="/users" className="link">
               <li className="sidebar_listitem ">
                 <LineStyle className="sidebar_icons" />
-                Users
+                Edit Users
               </li>
             </Link>
             <Link to="/movies" className="link">
@@ -58,10 +62,6 @@ const Sidebar = () => {
               Lists
             </li>
             </Link>
-            <li className="sidebar_listitem" onClick={handleLogout}>
-              <ExitToAppIcon className="sidebar_icons" />
-              LogOut
-            </li>
           </ul>
         </div>
         <div className="sidebar_menu">
@@ -79,6 +79,10 @@ const Sidebar = () => {
               Lists
             </li>
             </Link>
+            <li className="sidebar_listitem" onClick={handleLogout}>
+              <ExitToAppIcon className="sidebar_icons" />
+              LogOut
+            </li>
           </ul>
         </div>
         {/* <div className="sidebar_menu">

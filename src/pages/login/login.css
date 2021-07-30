@@ -38,6 +38,7 @@
   color: white;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
