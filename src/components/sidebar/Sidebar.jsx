@@ -41,10 +41,12 @@ const Sidebar = () => {
               Movies
             </li>
             </Link>
+            <Link to="/lists" className="link">
             <li className="sidebar_listitem">
               <TrendingUp className="sidebar_icons" />
-              Transactions
+              Lists
             </li>
+            </Link>
             <li className="sidebar_listitem">
               <TrendingUp className="sidebar_icons" />
               Reports

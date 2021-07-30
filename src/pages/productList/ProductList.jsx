@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect} from "react";
 import "./productList.css";
 import { DataGrid } from "@material-ui/data-grid";
 import { DeleteOutline } from "@material-ui/icons";
-import { productRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 import { MovieContext } from "../../context/movieContext/MovieContext";
 import { deleteMovie, getMovies } from "../../context/movieContext/movieCalls";
@@ -45,7 +44,7 @@ const ProductList = () => {
           renderCell: (params) => {
             return (
               <>
-                <Link to={{pathname:"/product/" + params.row._id, movie:params.row}}>
+                <Link to={{pathname:"/movie/" + params.row._id, movie:params.row}}>
                   <button className="productList_edit">Edit</button>
                 </Link>
                 <DeleteOutline

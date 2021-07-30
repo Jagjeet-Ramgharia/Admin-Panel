@@ -10,7 +10,7 @@ const Product = () => {
     <div className="product">
       <div className="productTitle_container">
         <h1 className="product_title">Product</h1>
-        <Link to="/newproduct">
+        <Link to="/newmovie">
           <button className="productAdd_btn">Create</button>
         </Link>
       </div>

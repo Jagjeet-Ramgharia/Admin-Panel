@@ -1,0 +1,133 @@
+.list{
+    flex: 4;
+    padding: 20px;
+}
+.productTitle_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productAdd_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.product_top{
+    display: flex;
+}
+.product_top_left,.product_top_right{
+    flex: 1;
+}
+.product_top_right{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+}
+.productInfo_img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.productInfo_top{
+    display: flex;
+    align-items: center;
+}
+.productInfo_name{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.productInfo_bottom{
+    margin-top: 10px;
+}
+.productInfo_item{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productInfoValue{
+    font-weight: 300;
+}
+
+.product_bottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,.75);
+}
+
+.products_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_form_left{
+    display: flex;
+    flex-direction: column;
+    /* background-color: teal; */
+    flex: 1;
+}
+
+.product_form_left>label{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.product_form_left>input{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.product_form_left>select{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+.product_form_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.product_upload{
+    display: flex;
+    align-items: center;
+}
+
+.product_upload>img{
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.product_updatebtn{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    width: 50%;
+}
+
+.icon{
+    cursor: pointer;
+}
